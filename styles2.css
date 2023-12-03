@@ -1,0 +1,344 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+    margin: 0px;
+    padding:0px ;
+    box-sizing: border-box;
+    font-family:DM Sans;
+}
+.content{
+ flex: 4.5;
+ background: linear-gradient(#90AEA7 5%, #000000 55%);
+}
+
+.sidebar{
+flex: 1;
+}
+.img1top2{
+    width: 25%;
+    margin-left: 2px;
+}
+.top2>p{
+    font-size: 12px;
+}
+.hero_top{
+    font-family: DM Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #FFFFFF;
+}
+.hero_cont_div>p{
+    color: #FFFFFF;
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.liked_songs_div{
+    background: linear-gradient(to bottom right, #4000F4, #603AED, #7C6EE6, #979FE1, #A2B3DE, #ADC8DC, #C0ECD7);
+    width: 100px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar{
+    background-color: #000000;
+    color: white;
+}
+.Header_content{
+    width: 100%;
+}
+.home{
+    background-color: #282828;
+}
+.home, .search, .library{
+margin-inline: 10px;
+    /* padding: 8px; */
+    padding-left: 25px;
+}
+.Header_content p{
+    margin-left: 15%;
+    font-family: DM Sans;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.06em;
+text-align: left;
+
+}
+.library p{
+    white-space: nowrap;
+    margin-left: 30%;
+}
+.search p{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.sidebar_1_div_img1{
+background-color: white;
+width: 36px;
+height: 36px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sidebar_1_div_img2{
+    background: linear-gradient(to bottom right, #4000F4, #603AED, #7C6EE6, #979FE1, #A2B3DE, #ADC8DC, #C0ECD7);
+    width: 36px;
+    height: 36px;
+    display: flex;
+justify-content: center;
+align-items: center;
+ }
+ .sidebar_1_div_img2>img{
+    width: 16px;
+ }
+ .main_sidebar{
+    margin-top: 10%;
+    margin-left: 10.4%;
+ }
+ .sidebar_1 p{
+    font-family: DM Sans;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.0525em;
+text-align: left;
+margin-left: 12%;
+ }
+ .sidebar_1_div_img3{
+    background-color:#004638;
+    width: 36px;
+    height: 36px;
+    display: flex;
+justify-content: center;
+align-items: center;
+ }
+.player1{
+    background-color: #181818;
+    height: fit-content;
+}
+
+.player1_div1{
+    width:15%;
+}
+.heart{
+    width: 9%;
+}
+.player_img{
+    width: 30%;
+}
+.pp1{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: -0.05em;
+text-align: left;
+}
+.pp2{
+    font-family: DM Sans;
+    color: #B3B3B3;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.05em;
+text-align: left;
+}
+ .player1_div2{
+    width: 50%;
+ } 
+ .plyr_prog_div1{
+    width: 90%;
+    height: 5px;
+    background-color: #C4C4C4;
+    position: relative;
+    left: 2px;
+ }
+ .player1_div3{
+    width: 17%;
+
+ }
+ .player1_div3_top_line{
+    width: 50%;
+    height: 5px;
+    background-color: #C4C4C4;
+ }
+ .player1_div3_top>*{
+   margin-inline: 2%;
+ }
+ .player_prog>p{
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.04em;
+text-align: left;
+
+ }
+.player_controls>*{
+ margin-inline: 1%;
+}
+.player1_div3{
+    margin-top: 2%;
+}
+.player1_div3_bottom{
+    margin-top: 7%;
+    padding-left: 29%;
+}
+footer{
+    position: sticky;
+    bottom: 0px;
+    z-index: 100;
+}
+.div1_p1{
+color: #FFFFFF;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.topdiv1>h1{
+color: #FFFFFF;
+font-size: 90px;
+font-weight: 900;
+line-height: 114px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.subdiv_p1{
+    color: #FFFFFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.subdiv_p2{
+    color: #FFFFFF;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.subdiv_p2>*{
+    margin-inline: 4px;
+}
+.div1{
+    margin-top: 12%;
+}
+.icons{
+    margin-left: 2.3%;
+}
+.list_title_div1{
+    margin-left: 3.5%;
+}
+.list_title_div1>*{
+    margin-inline: 9px;
+}  
+.alb{
+    margin-left: 37.1%;
+}
+.add{
+    margin-left: 20%;
+}
+.list_title p{
+color: #FFFFFF;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.11em;
+text-align: left;
+}
+.songsdiv{
+    border-top: 1px solid #272f2d;
+    margin-top: -5px;
+    padding-top: 10px;
+}
+.song1_div1{
+    width: 20%;
+}
+.song1_div1>*{
+    margin-inline: 5px;
+}
+.icos1{
+    width: 4%;
+    margin-bottom: 9px !important;
+}
+.icos2{
+    width:50px;
+    height: 50px;
+}
+.mindiv_p1{
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.mindiv_p2{
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.middle{
+    margin-left: 15%;
+}
+.date{
+    margin-left: 12%;
+}
+.song2_div1>*{
+    margin-inline: 5px;
+}
+.song1_div2>img{
+    width: 25px;
+    height: 25px;
+}
+.song1_div2{
+    width: 9%;
+    margin-left: 14%;
+}
+.song2_div2>img{
+    width: 25px;
+    height: 25px;
+}
+.song2_div2{
+    width: 6%;
+    margin-left: 17.3%;
+}
+.middle2{
+    margin-left: 20.8%;
+}
+.list_song1{
+    background-color: #232625;
+    border-radius: 3px;
+}
+.num{
+    margin-top: 7%;
+}
+.mdena{
+    margin-top: 1%;
+}
+.side2{
+    margin-top: 5%;
+    width: 85%;
+    border: 1px solid #232323;
+}
+.side3{
+margin-top: 120%;
+width: 100%;
+height: 300px;
+}
+.side3>img{
+    width: 100%;
+}
